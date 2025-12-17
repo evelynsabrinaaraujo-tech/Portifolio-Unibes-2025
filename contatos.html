@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link REL="STYLESHEET" HREF="STYLE.CSS">
+    <link REL="STYLESHEET" HREF="stylecontatos.css">
+   <link REL="shortcur icon" HREF="IMAG/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+    <title>Contatos</title>
+</head>
+<body> 
+    <header id="menu">
+
+           <img class="logo" SRC="IMAG/EVEL.jpg">
+
+      <h1> Porfólio e curriculo </h1>
+
+   <H2>Evelyn Sabrina de Moura Araújo</H2>
+        <nav> 
+    <A class=links1 HREF="index.html"> Curriculo</A>
+    <A class=links1 HREF="portfolio.html">Portfólio </A>
+    <A class=links1 HREF="contatos.html">Contatos </A>
+        </nav>
+    </header>
+
+     
+
+   <div class="info1">
+   <h3>Informações Pessoais</h3>
+    <ul><LI>End: Santa Cecilia, São Paulo, SP.</LI>
+        <LI>Contatos: (14) 99127-9398, evelynsabrinaaraujo@gmail.com</LI>
+        <LI>Brasielira, Solteira.</LI></ul></div> 
+        
+<form action="mailto.fulano@gmail.com" method="get"> 
+<fieldset>
+    <legend> Identificação do Usuário </legend>
+<p>
+    <label for="nome">Nome:</label>
+    <input type="text" nome="nome" id="conome" size="50" maxlength="45" placeholder="Digite seu nome completo aqui" required autocomplete="on">
+</p>
+<p>
+    <label for="Email">Email::</label>
+    <input type="email" nome="Email" id="cmail" size="30" maxlength="30" placeholder="Digite seu email" required autocomplete="on">
+</p>
+<p>
+    <label for="Senha">Senha:</label>
+    <input type="password" nome="Senha" id="csenha" size="8" maxlength="8" placeholder="Senha">
+</p>
+<fieldset>
+    <legend> Sexo:</legend>
+<p><input type="radio" name="Sexo" id="cmasc" checked><Label>Masculino</Label></p>
+<p> <input type="radio" name="Sexo" id="cfem"><label>Feminino</label></p>
+<p>
+    <input type="radio" name="Sexo" id="coutro"><label for="">Outro</label>
+</p>
+
+</fieldset>
+<ul></ul>
+<label for="">Data de nascimento:</label>
+<input type="date" name="Data" id="cdata">
+
+</fieldset>
+<fieldset>
+    <legend> Endereço do usuario </legend>
+<p>
+    <label for="">logradouro:</label>
+    <input type="text" nome=Logradouro id="clog" size="50" maxlength="50" placeholder="Rua, AV. ou Trav..." required autocomplete="on">
+</p>
+<p>
+    <label for="">Numero</label>
+    <input type="number" nome="Numero" id="cnum" size="10"  min="0" max="9999" step="1" value="1">
+</p>
+<p>
+    <label for="">Cidade</label>
+    <input type="text" nome="Cidade" id="ccid" size="30" maxlength="10" placeholder="Sua cidade">
+</p>
+<p>
+    <label for="">Estado</label>
+    <select name="Estado" id="cest">
+        <option value="AC">Acre</option>
+<option value="AL">Alagoas</option>
+<option value="AP">Amapá</option>
+<option value="AM">Amazonas</option>
+<option value="BA">Bahia</option>
+<option value="CE">Ceará</option>
+<option value="DF">Distrito Federal</option>
+<option value="ES">Espírito Santo</option>
+<option value="GO">Goiás</option>
+<option value="MA">Maranhão</option>
+<option value="MT">Mato Grosso</option>
+<option value="MS">Mato Grosso do Sul</option>
+<option value="MG">Minas Gerais</option>
+<option value="PA">Pará</option>
+<option value="PB">Paraíba</option>
+<option value="PR">Paraná</option>
+<option value="PE">Pernambuco</option>
+<option value="PI">Piauí</option>
+<option value="RJ">Rio de Janeiro</option>
+<option value="RN">Rio Grande do Norte</option>
+<option value="RS">Rio Grande do Sul</option>
+<option value="RO">Rondônia</option>
+<option value="RR">Roraima</option>
+<option value="SC">Santa Catarina</option>
+<option value="SP">São Paulo</option>
+<option value="SE">Sergipe</option>
+<option value="TO">Tocantins</option>
+    </select>
+</p>
+</fieldset>
+
+<fieldset>
+    <legend> Mensagem do Usuario:</legend>
+    <p>Mensagem</p>
+<p> <textarea name="Mensagem" id="msg" rows="15" cols="70" maxlength="1000" placeholder="Deixe sua mensagem aqui"></textarea>
+</p>
+
+</fieldset>
+        <input type="button" value="Enviar" class="btn" name="enviar">
+
+        <input type="reset" value="Limpar" class="btn" name="limpar">
+
+
+</form>
+
+    <footer> 
+
+  PORTFOLIO 2025 ® - Evelyn Sabrina de Moura Araújo ↺
+
+    </footer>
+
+</body> 
+</html>
